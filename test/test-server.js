@@ -15,7 +15,8 @@ describe('GET /', function () {
         "status": 200,
         "events": [
           { "title": 'an event', "id": 1234, "description": 'something really cool' },
-          { "title": 'another event', id: 5678, "description": 'something even cooler' }
+          { "title": 'another event', id: 5678, "description": 'something even cooler' },
+          { "title": 'another event', id: 5679, "description": 'Git Event' }
         ]
       });
 
